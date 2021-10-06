@@ -19,3 +19,6 @@ embedded: AC3 => AC3EX.ac3 -core
 DTS-ES => DTS-ES.dts
 DTS Hi-Res DTS-HD HR => DTSHR.dtshr or .dtshd
 DTS Master Audio DTS-HD MA => DTSMA.dtsma or .dtshd
+
+SUBTITLE:
+PGS => .sup
