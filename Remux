@@ -1,0 +1,21 @@
+Remux
+
+VIDEO:
+HEVC => .h265
+AVC => .h264
+MPEG2 => .m2v
+VC-1 => .vc1
+
+AUDIO:
+WAV => .wav
+LPCM => (.pcm - mkvtoolnix don't work) .wav or .w64
+RAW/PCM => (.pcm - mkvtoolnix don't work) .wav or .w64
+E-AC3 EX =>  EAC3EX.thd
+E-AC3 EX =>  EAC3EX.eac3
+core: AC3 EX => AC3EX.ac3 -core
+TrueHD => THD.thd
+TrueHD/AC3 => THDAC3.thd+ac3
+embedded: AC3 => AC3EX.ac3 -core
+DTS-ES => DTS-ES.dts
+DTS Hi-Res DTS-HD HR => DTSHR.dtshr or .dtshd
+DTS Master Audio DTS-HD MA => DTSMA.dtsma or .dtshd
